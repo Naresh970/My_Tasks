@@ -1,0 +1,10 @@
+Before communicating with the database to exchange messages we have to establish a connection with the DB
+
+---------Steps to establish connection with the DB-----------
+1. load and register the database
+Note : Before Java 7 it is necessary
+2.create connection with the database
+-> Requires three parameters driver_url,username,password
+3.create the statement
+4.execute the statement
+5.close the resources
